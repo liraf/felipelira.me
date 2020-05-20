@@ -1,0 +1,160 @@
+
+.section{
+  transition: 0.3s background-color ease-in-out;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - #{$menuHeight});
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #232323;
+}
+
+h1, h2 {
+  font-family: "Asap Condensed", sans-serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: "Sarabun", sans-serif;
+}
+
+p, div, span {
+  font-family: "Fira Sans", sans-serif;
+}
+a {
+  font-family: "Rajdhani", sans-serif;
+}
+
+
+p{
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.cta{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: $idGreen;
+  padding: 20px 30px;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  transition: 0.3s all ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  &:hover {
+    background-color: $idGreenDarker;
+  }
+  &--fake{
+    visibility: hidden;
+  }
+}
+
+.container {
+  width: 1450px;
+  max-width: 95%;
+  display: block;
+  margin: auto;
+  &__col50{
+    width: calc(50% - 60px);
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 30px;
+    @media(max-width: $phone-upper-boundary) {
+      width: calc(100% - 60px);
+    }
+    &--middle{
+      vertical-align: middle;
+    }
+  }
+  &__col25{
+    width: calc(25% - 40px);
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 20px;
+    @media(max-width: $tablet-portrait-upper-boundary) {
+      padding: 0px 10px;
+      width: calc(50% - 20px);
+    }
+    @media(max-width: $phone-upper-boundary) {
+      padding: 0px 7px;
+      width: calc(100% - 14px);
+    }
+    &--middle{
+      vertical-align: middle;
+    }
+  }
+  &__col33{
+    width: calc(33.33333% - 40px);
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 20px;
+    @media(max-width: $tablet-portrait-upper-boundary) {
+      padding: 0px 10px;
+      width: calc(50% - 20px);
+    }
+    @media(max-width: $phone-upper-boundary) {
+      padding: 0px 7px;
+      width: calc(100% - 14px);
+    }
+    &--middle{
+      vertical-align: middle;
+    }
+  }
+}
+
+*:focus {
+  outline: none;
+}
+
+.titlecontainer{
+  display: block;
+  text-align: right;
+  &__content{
+    font-style: normal;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: $idRed;
+    padding: 10px 60px 10px 40px;
+    margin-right: -20px;
+    margin-top: 40px;
+    display: inline-block;
+    &--beforedestroy{
+      animation-name: example;
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    &--fake{
+        visibility: hidden;
+    }
+    span,
+    b {
+      z-index: 20;
+      position: relative;
+    }
+    b {
+      font-weight: bold;
+    }
+  }
+  
+  &--left{
+    text-align: left;
+    .titlecontainer__content{
+      padding: 10px 40px 10px 60px; 
+      margin-left: -20px;
+    }
+  }
+}
+
