@@ -3,13 +3,13 @@
         .titlecontainer
             h3.titlecontainer__content
                 span
-                span Projetos
+                span Projects
         .container
             .projects__list
                 .projects__listblock
                     h2 Qbot - Decide With Confidence
                         span
-                    p O QBot é um app/chatbot voltado para o mercado de franquias americano. Nele, o empreendedor é capaz de visualizar dados futuros do seu negócio e realizar predições utilizando inteligência artificial e machine learning.
+                    p QBot is a chatbot application focused on the American franchise market. The entrepreneur is able to view future business data and make predictions using artificial intelligence and machine learning.
                     carousel(:perPage="1", paginationActiveColor="#BE4157", :loop="true", :navigationEnabled="true", navigationPrevLabel="<svg width='32' height='23' viewBox='0 0 32 23' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10.2738 0.343874C10.7178 -0.114625 11.4168 -0.114625 11.8608 0.343874C12.2898 0.786883 12.2898 1.5242 11.8608 1.96618L3.81375 10.276H30.3678C30.9868 10.276 31.4948 10.784 31.4948 11.4232C31.4948 12.0624 30.9868 12.587 30.3678 12.587H3.81375L11.8608 20.8813C12.2898 21.3398 12.2898 22.0782 11.8608 22.5201C11.4168 22.9786 10.7178 22.9786 10.2738 22.5201L0.32175 12.2432C-0.10725 11.8001 -0.10725 11.0628 0.32175 10.6209L10.2738 0.343874Z' fill='white'/></svg>", navigationNextLabel="<svg width='32' height='23' viewBox='0 0 32 23' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M21.221 22.5201C20.777 22.9786 20.078 22.9786 19.634 22.5201C19.205 22.0771 19.205 21.3398 19.634 20.8978L27.681 12.5881L1.127 12.5881C0.507997 12.5881 -1.84712e-06 12.08 -1.84712e-06 11.4408C-1.84712e-06 10.8016 0.507997 10.277 1.127 10.277L27.681 10.277L19.634 1.9827C19.205 1.5242 19.205 0.785851 19.634 0.343875C20.078 -0.114624 20.777 -0.114624 21.221 0.343875L31.173 10.6209C31.602 11.0639 31.602 11.8012 31.173 12.2432L21.221 22.5201Z' fill='white'/></svg>")
                         slide
                             .porfolioimg
@@ -24,9 +24,9 @@
                             .porfolioimg
                                 img(src="~@/assets/img/portfolio/qbot/4.jpg")
                 .projects__listblock
-                    h2 Beiramar Imóveis - Área do Cliente
+                    h2 Beiramar Imóveis - Customer Dashboard
                         span
-                    p A área do cliente da Beiramar Imóveis permite que os clientes da imobiliária possam fazer pedidos de manutenção e gerenciem seus imóveis através de uma plataforma online. Nela, tanto inquilinos quanto proprietários acessam funções desde geração de boletos, extratos e pedidos de manutenção nos imóveis.
+                    p The customer area of Beiramar Imóveis allows clients of the real estate company to place maintenance orders and manage their properties through an online platform. In it, both tenants and landlords access functions since generating invoices and maintenance requests in the properties.
                     carousel(:perPage="1", paginationActiveColor="#BE4157", :loop="true", :navigationEnabled="true", navigationPrevLabel="<svg width='32' height='23' viewBox='0 0 32 23' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10.2738 0.343874C10.7178 -0.114625 11.4168 -0.114625 11.8608 0.343874C12.2898 0.786883 12.2898 1.5242 11.8608 1.96618L3.81375 10.276H30.3678C30.9868 10.276 31.4948 10.784 31.4948 11.4232C31.4948 12.0624 30.9868 12.587 30.3678 12.587H3.81375L11.8608 20.8813C12.2898 21.3398 12.2898 22.0782 11.8608 22.5201C11.4168 22.9786 10.7178 22.9786 10.2738 22.5201L0.32175 12.2432C-0.10725 11.8001 -0.10725 11.0628 0.32175 10.6209L10.2738 0.343874Z' fill='white'/></svg>", navigationNextLabel="<svg width='32' height='23' viewBox='0 0 32 23' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M21.221 22.5201C20.777 22.9786 20.078 22.9786 19.634 22.5201C19.205 22.0771 19.205 21.3398 19.634 20.8978L27.681 12.5881L1.127 12.5881C0.507997 12.5881 -1.84712e-06 12.08 -1.84712e-06 11.4408C-1.84712e-06 10.8016 0.507997 10.277 1.127 10.277L27.681 10.277L19.634 1.9827C19.205 1.5242 19.205 0.785851 19.634 0.343875C20.078 -0.114624 20.777 -0.114624 21.221 0.343875L31.173 10.6209C31.602 11.0639 31.602 11.8012 31.173 12.2432L21.221 22.5201Z' fill='white'/></svg>")
                         slide
                             .porfolioimg
@@ -41,9 +41,9 @@
                             .porfolioimg
                                 img(src="~@/assets/img/portfolio/areadocliente/1.jpg")
                 .projects__listblock
-                    h2 CSLive - Bolão
+                    h2 CSLive - Esports Platform
                         span
-                    p O bolão do CSLive é uma plataforma online onde fãs de Counter Strike podem apostar gratuitamente nos seus times preferidos.
+                    p CSLive is an online platform where Counter Strike fans can bet for free on their favorite teams.
                     carousel(:perPage="1", paginationActiveColor="#BE4157", :loop="true", :navigationEnabled="true", navigationPrevLabel="<svg width='32' height='23' viewBox='0 0 32 23' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10.2738 0.343874C10.7178 -0.114625 11.4168 -0.114625 11.8608 0.343874C12.2898 0.786883 12.2898 1.5242 11.8608 1.96618L3.81375 10.276H30.3678C30.9868 10.276 31.4948 10.784 31.4948 11.4232C31.4948 12.0624 30.9868 12.587 30.3678 12.587H3.81375L11.8608 20.8813C12.2898 21.3398 12.2898 22.0782 11.8608 22.5201C11.4168 22.9786 10.7178 22.9786 10.2738 22.5201L0.32175 12.2432C-0.10725 11.8001 -0.10725 11.0628 0.32175 10.6209L10.2738 0.343874Z' fill='white'/></svg>", navigationNextLabel="<svg width='32' height='23' viewBox='0 0 32 23' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M21.221 22.5201C20.777 22.9786 20.078 22.9786 19.634 22.5201C19.205 22.0771 19.205 21.3398 19.634 20.8978L27.681 12.5881L1.127 12.5881C0.507997 12.5881 -1.84712e-06 12.08 -1.84712e-06 11.4408C-1.84712e-06 10.8016 0.507997 10.277 1.127 10.277L27.681 10.277L19.634 1.9827C19.205 1.5242 19.205 0.785851 19.634 0.343875C20.078 -0.114624 20.777 -0.114624 21.221 0.343875L31.173 10.6209C31.602 11.0639 31.602 11.8012 31.173 12.2432L21.221 22.5201Z' fill='white'/></svg>")
                         slide
                             .porfolioimg
@@ -61,9 +61,9 @@
                             .porfolioimg
                                 img(src="~@/assets/img/portfolio/bolao/2.jpg")
                 .projects__listblock
-                    h2 Portal Beiramar Imóveis
+                    h2 Beiramar Imóveis - Web Portal
                         span
-                    p O Portal da Beiramar Imóveis permite que usuários de todo o DF realizem buscas de imóveis no site, agendem visitas e preencham formulários de dúvidas.
+                    p The Beiramar Imóveis Web Portal allows users from all over the Federal District to search for properties on the website, schedule visits and fill in question forms.
                     carousel(:perPage="1", paginationActiveColor="#BE4157", :loop="true", :navigationEnabled="true", navigationPrevLabel="<svg width='32' height='23' viewBox='0 0 32 23' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10.2738 0.343874C10.7178 -0.114625 11.4168 -0.114625 11.8608 0.343874C12.2898 0.786883 12.2898 1.5242 11.8608 1.96618L3.81375 10.276H30.3678C30.9868 10.276 31.4948 10.784 31.4948 11.4232C31.4948 12.0624 30.9868 12.587 30.3678 12.587H3.81375L11.8608 20.8813C12.2898 21.3398 12.2898 22.0782 11.8608 22.5201C11.4168 22.9786 10.7178 22.9786 10.2738 22.5201L0.32175 12.2432C-0.10725 11.8001 -0.10725 11.0628 0.32175 10.6209L10.2738 0.343874Z' fill='white'/></svg>", navigationNextLabel="<svg width='32' height='23' viewBox='0 0 32 23' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M21.221 22.5201C20.777 22.9786 20.078 22.9786 19.634 22.5201C19.205 22.0771 19.205 21.3398 19.634 20.8978L27.681 12.5881L1.127 12.5881C0.507997 12.5881 -1.84712e-06 12.08 -1.84712e-06 11.4408C-1.84712e-06 10.8016 0.507997 10.277 1.127 10.277L27.681 10.277L19.634 1.9827C19.205 1.5242 19.205 0.785851 19.634 0.343875C20.078 -0.114624 20.777 -0.114624 21.221 0.343875L31.173 10.6209C31.602 11.0639 31.602 11.8012 31.173 12.2432L21.221 22.5201Z' fill='white'/></svg>")
                         slide
                             .porfolioimg
@@ -108,12 +108,10 @@
 
 <script>
 import startae from "../assets/img/portfolio/startae.png";
-// import beiramar from "../assets/img/portfolio/beiramar.png";
 import bmanuncie from "../assets/img/portfolio/bm-anuncie.png";
 import cslive from "../assets/img/portfolio/cslive.png";
 import ddd from "../assets/img/portfolio/ddd.png";
 import orbi from "../assets/img/portfolio/orbi.png";
-// import qbot from "../assets/img/portfolio/qbot.png";
 import qubo from "../assets/img/portfolio/qubo.png";
 import rbv from "../assets/img/portfolio/rbv.png";
 import under from "../assets/img/portfolio/under.png";
@@ -139,12 +137,6 @@ export default {
           link: "https://startaeteam.felipelira.me/",
           tech: "React"
         },
-        // {
-        //   image: beiramar,
-        //   name: "Beiramar Group",
-        //   link: "https://beiramarimoveis.com.br/",
-        //   tech: "Vue.js, Vuex"
-        // },
         {
           image: bmanuncie,
           name: "Beiramar - Anuncie",
@@ -169,12 +161,6 @@ export default {
           link: null,
           tech: "HTML, CSS, JS"
         },
-        // {
-        //   image: qbot,
-        //   name: "Qbot",
-        //   link: "https://qubo.uno/qbot",
-        //   tech: "Vue, UI/UX, Figma"
-        // },
         {
           image: qubo,
           name: "Qubo",
@@ -223,12 +209,6 @@ export default {
       margin-bottom: 80px;
       padding-bottom: 80px;
     }
-    // h2 {
-    //   color: #fff;
-    //   margin-bottom: 30px;
-    //   font-size: 32px;
-    //   font-weight: 500;
-    // }
     h2 {
       font-family: "Rajdhani";
       font-size: 45px;

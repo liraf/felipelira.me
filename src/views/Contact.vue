@@ -5,7 +5,7 @@
                 span
                 span Contact
         .container
-            h2 liraffs@gmail.com
+            h2 felipelira1908@hotmail.com
                 span
             .Redes
                 a(href="https://www.linkedin.com/in/felipeliraf/", target="_blank")

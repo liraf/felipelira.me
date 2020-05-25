@@ -3,9 +3,6 @@
         router-link.Menu__item(to="/")
             .Menu__itemtitle HOME
             .Menu__itemmarker
-        //- router-link.Menu__item(to="/about", @click="this.currentTransition = 'about'", v-bind:class="{'Menu__item--transition': currentTransition === 'about'}")
-        //-     .Menu__itemtitle ABOUT
-        //-     .Menu__itemmarker 
         router-link.Menu__item(to="/skills")
             .Menu__itemtitle SKILLS
             .Menu__itemmarker 
@@ -15,9 +12,6 @@
         router-link.Menu__item(to="/contact")
             .Menu__itemtitle CONTACT
             .Menu__itemmarker 
-        //- router-link.Menu__item(to="/contact")
-        //-     .Menu__itemtitle CONTACT
-        //-     .Menu__itemmarker
         .Menu__social
             a(href="https://www.linkedin.com/in/felipeliraf/", target="_blank")
                 I.fa.fa-linkedin
@@ -50,7 +44,7 @@ $itemLineHeight: 26px;
     vertical-align: middle;
     position: relative;
     text-decoration: none;
-    padding:   22px;
+    padding: 17px 22px;
     overflow: hidden;
     @media screen and (max-width: 900px) {
       padding: calc((#{$menuHeight} - #{$itemLineHeight}) / 2) 34px;

@@ -49,35 +49,6 @@
                     .skills__lineitem.skills__lineitem--1 Mobile Design
                     .skills__lineitem.skills__lineitem--1 UX
                     .skills__lineitem.skills__lineitem--1 Figma
-                //- .skills__line
-                //-     .skills__lineitem.skills__lineitem--1.skills__lineitem--green html
-                //-     .skills__lineitem.skills__lineitem--2 pug
-                //-     .skills__lineitem.skills__lineitem--1 js
-                //-     .skills__lineitem.skills__lineitem--3.skills__lineitem--green CSS
-                //-     .skills__lineitem.skills__lineitem--5 SASS
-                //-     .skills__lineitem.skills__lineitem--5 BEM
-                //- .skills__line
-                //-     .skills__lineitem.skills__lineitem--3 vue
-                //-     .skills__lineitem.skills__lineitem--5.skills__lineitem--green vuex
-                //-     .skills__lineitem.skills__lineitem--1 nuxt
-                //- .skills__line
-                //-     .skills__lineitem.skills__lineitem--3.skills__lineitem--green react
-                //-     .skills__lineitem.skills__lineitem--1 redux
-                //-     .skills__lineitem.skills__lineitem--4.skills__lineitem--green angular 2+
-                //- .skills__line
-                //-     .skills__lineitem.skills__lineitem--4 php
-                //-     .skills__lineitem.skills__lineitem--5.skills__lineitem--green python
-                //-     .skills__lineitem.skills__lineitem--3 wordpress
-                //- .skills__line
-                //-     .skills__lineitem.skills__lineitem--1.skills__lineitem--green UI
-                //-     .skills__lineitem.skills__lineitem--1 UX
-                //-     .skills__lineitem.skills__lineitem--3.skills__lineitem--green figma
-                //- .skills__line
-                //-     .skills__lineitem.skills__lineitem--3.skills__lineitem--green webpack
-                //-     .skills__lineitem.skills__lineitem--2 cypress
-                //-     .skills__lineitem.skills__lineitem--3.skills__lineitem--green npm
-                //-     .skills__lineitem.skills__lineitem--2 git
-
 </template>
 
 <script>

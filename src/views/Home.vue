@@ -15,7 +15,6 @@
           span and 
           b Designer.
         router-link.cta.DestroyBeforeRouteChange(to="/projects") Check my Work
-        //- a(href="#about", v-smooth-scroll="{ duration: 1200, offset: -50}") Check my Work
 </template>
 
 <script>
@@ -41,43 +40,12 @@ export default {
     var elem_scene = document.querySelector("#scene");
     elem_scene.style.height = height / 2 + "px";
   }
-  // beforeRouteLeave (to, from, next) {
-  //   console.log(from)
-
-  //   let title = document.getElementsByClassName('home__subtitle')[0]
-
-  //   let hiddenTitle = title.cloneNode(true)
-  //   hiddenTitle.style.visibility = 'hidden'
-  //   title.parentNode.insertBefore(hiddenTitle, title.nextSibling)
-
-  //   let elements = document.getElementsByClassName('DestroyBeforeRouteChange')
-  //   for (let i = 0; i < elements.length; i++) {
-  //     elements[i].style.opacity = '0'
-  //   }
-
-  //   let top = title.getBoundingClientRect().top
-  //   let right = title.getBoundingClientRect().right
-  //   title.style.position = 'absolute'
-  //   title.style.top = top + 'px'
-  //   title.style.right = right + 150 + 'px'
-  //   title.style.marginTop = '0'
-  //   title.style.marginBottom = '0'
-
-  //   if (to.name === "About"){
-  //     let classString = title.className; // returns the string of all the classes
-  //     let newClass = classString.concat(" home__subtitle--beforedestroy"); // Adds the class "home__title--beforedestroy" to the string
-  //     title.className = newClass; // sets className to the new string
-  //   }
-
-  //   setTimeout(next, 3000)
-  // }
 };
 </script>
 
 <style lang="scss">
 .DestroyBeforeRouteChange {
   opacity: 1;
-  // transition: inherit, opacity 0.3s ease-in-out;
 }
 .homepage {
   &__title {
