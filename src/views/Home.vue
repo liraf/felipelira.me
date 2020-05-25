@@ -122,7 +122,7 @@ export default {
       img {
         position: absolute;
         right: -90px;
-        bottom: 80%;
+        bottom: 60%;
         width: 450px;
         opacity: 0.5;
       }
@@ -193,6 +193,10 @@ export default {
       text-align: left;
       color: #ffffff;
       font-family: "Sarabun";
+      @media screen and (min-width: 600px) and (max-height: 700px) {
+        font-size: 80px;
+        line-height: 96px;
+      }
       @media screen and (max-width: 600px) {
         font-size: 80px;
         line-height: 96px;

@@ -50,7 +50,7 @@ $itemLineHeight: 26px;
     vertical-align: middle;
     position: relative;
     text-decoration: none;
-    padding: calc((#{$menuHeight} - #{$itemLineHeight}) / 2) 22px;
+    padding:   22px;
     overflow: hidden;
     @media screen and (max-width: 900px) {
       padding: calc((#{$menuHeight} - #{$itemLineHeight}) / 2) 34px;
@@ -92,6 +92,9 @@ $itemLineHeight: 26px;
     position: absolute;
     right: 20px;
     top: calc((#{$menuHeight} - 15px) / 2);
+    @media (max-width: $phone-upper-boundary) {
+      display: none;
+    }
     a {
       width: 15px;
       height: 15px;

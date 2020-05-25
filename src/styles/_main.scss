@@ -5,6 +5,7 @@
   position: relative;
   width: 100%;
   height: calc(100vh - #{$menuHeight});
+  // overflow-x: hidden;
 }
 
 body{
@@ -127,7 +128,7 @@ p{
     position: relative;
     background-color: $idRed;
     padding: 10px 60px 10px 40px;
-    margin-right: -20px;
+    // margin-right: -20px;
     margin-top: 40px;
     display: inline-block;
     &--beforedestroy{
@@ -153,7 +154,7 @@ p{
     text-align: left;
     .titlecontainer__content{
       padding: 10px 40px 10px 60px; 
-      margin-left: -20px;
+      // margin-left: -20px;
     }
   }
 }
